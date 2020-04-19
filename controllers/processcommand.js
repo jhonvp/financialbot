@@ -2,7 +2,6 @@ var request = require("request");
 
 module.exports = async (message, cb) => {
   const commandinformation = message.split(";");
-  console.log(commandinformation);
   if (
     commandinformation[0] &&
     commandinformation[1] &&
