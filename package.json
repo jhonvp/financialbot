@@ -1,0 +1,22 @@
+{
+  "name": "financialbot",
+  "version": "1.0.0",
+  "description": "Financial bot to proccess financial commands from the mqtt broker",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [
+    "Bot",
+    "Financial",
+    "Stock",
+    "MQTT"
+  ],
+  "author": "Jhon E. Villarreal P.",
+  "license": "ISC",
+  "dependencies": {
+    "log": "^1.4.0",
+    "mqtt": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
