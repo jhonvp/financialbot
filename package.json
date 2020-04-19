@@ -4,8 +4,9 @@
   "description": "Financial bot to proccess financial commands from the mqtt broker",
   "main": "app.js",
   "scripts": {
-    "start": "pm2 start ./app",
-    "test": "node ./app"
+    "start": "pm2 start financialbot.js",
+    "stop": "pm2 stop financialbot.js",
+    "restart": "pm2 restart financialbot.js"
   },
   "keywords": [
     "Bot",
